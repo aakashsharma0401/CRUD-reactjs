@@ -18,6 +18,7 @@ const ShowData = () => {
       error: state?.user?.error,
     };
   });
+  
   useEffect(() => {
     dispatch(fetchData());
   }, []);
